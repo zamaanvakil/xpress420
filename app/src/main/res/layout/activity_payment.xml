@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.swlab.xpress420.PaymentActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:textSize="34sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/pickup_address_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a payment option:"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:checkedButton="@+id/COP_rb">
+
+        <RadioButton
+            android:id="@+id/COP_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash On Pickup (COP)"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"/>
+
+        <RadioButton
+            android:id="@+id/COD_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:text="Cash On Delivery (COD)" />
+
+        <RadioButton
+            android:id="@+id/card_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:text="Credit/Debit Card"
+            android:enabled="false"/>
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Place Order"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

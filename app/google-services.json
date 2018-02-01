@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "263296714903",
+    "firebase_url": "https://xpress420-3ffa7.firebaseio.com",
+    "project_id": "xpress420-3ffa7",
+    "storage_bucket": "xpress420-3ffa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263296714903:android:8c985956e2b80507",
+        "android_client_info": {
+          "package_name": "com.example.swlab.xpress420"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263296714903-ugp4tls9pb1shv2jeoilfsj01qnpgjdu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swlab.xpress420",
+            "certificate_hash": "395c28595f34924591e0d0214e4eedda8b41bf0c"
+          }
+        },
+        {
+          "client_id": "263296714903-afobjamekl9o8ps7k2kvp65lbvecdvuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swlab.xpress420",
+            "certificate_hash": "ea865debfb6d80338e581584a43b7028f84c84c3"
+          }
+        },
+        {
+          "client_id": "263296714903-qp7g78c3sqsc5b5sbcco2qrva5akosde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeYYOKf9ZOa5sGDvuLilNOBMkHQs_PZqs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263296714903-qp7g78c3sqsc5b5sbcco2qrva5akosde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

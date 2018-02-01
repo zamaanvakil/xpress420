@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_track_shipment"
+            android:icon="@drawable/ic_menu_track"
+            android:title="Track Shipment" />
+        <item
+            android:id="@+id/nav_send_shipment"
+            android:icon="@drawable/parcel_icon_grey"
+            android:title="Send Shipment" />
+
+        <item
+            android:id="@+id/nav_rates"
+            android:icon="@drawable/rupee_symbol"
+            android:title="Rates" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings_icon"
+            android:title="Settings" />
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

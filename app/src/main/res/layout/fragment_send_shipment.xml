@@ -1,0 +1,204 @@
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.swlab.xpress420.send_shipment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/login">
+
+                <TextView
+                    android:id="@+id/send_shipment_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/send_shipment"
+                    android:textColor="#d1d1d1"
+                    android:textSize="34sp" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/pickup_address_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pickup_address"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/pickup_address_sender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="@string/sender_s_name" />
+
+                <EditText
+                    android:id="@+id/pickup_address_house"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:hint="@string/apartment_house_no"/>
+
+                <EditText
+                    android:id="@+id/pickup_address_street"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:hint="Street"/>
+
+                <EditText
+                    android:id="@+id/pickup_address_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:hint="Area"/>
+
+                <EditText
+                    android:id="@+id/pickup_address_pincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberSigned"
+                    android:hint="Postal Code"/>
+
+                <Spinner
+                    android:id="@+id/from_spinner"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/cities_array"
+                    android:prompt="@string/choose_city"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/receiver_address_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/receiver_address"
+                    android:layout_marginTop="30dp"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/receiver_address_receiver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="@string/receiver_s_name" />
+
+                <EditText
+                    android:id="@+id/receiver_address_house"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:hint="@string/apartment_house_no"/>
+
+                <EditText
+                    android:id="@+id/receiver_address_street"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:hint="@string/street"/>
+
+                <EditText
+                    android:id="@+id/receiver_address_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:hint="@string/area"/>
+
+                <EditText
+                    android:id="@+id/receiver_address_pincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberSigned"
+                    android:hint="@string/postal_code"/>
+
+                <Spinner
+                    android:id="@+id/to_spinner"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/cities_array"
+                    android:prompt="@string/choose_city"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/parcel_details_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parcel_details"
+                    android:layout_marginTop="30dp"
+                    android:textSize="22sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/weight_et"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="numberSigned" />
+
+                    <TextView
+                        android:id="@+id/kg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kg"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/fragile_cb"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragile"
+                    android:textSize="17sp"/>
+
+                <Button
+                    android:id="@+id/next_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="@string/next"
+                    android:textColor="@android:color/white" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+

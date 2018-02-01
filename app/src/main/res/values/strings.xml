@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">xpress420</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="choose_city">Choose city</string>
+    <string name="weight_in_kg">Weight (kg)</string>
+    <string name="to">To:</string>
+    <string name="from">From:</string>
+    <string name="standard">Standard (delivers within 4-5 working days)</string>
+    <string name="express">Express (delivers within 1-2 working days)</string>
+    <string name="get_estimate">Get Estimate</string>
+    <string-array name="cities_array">
+        <item>Mumbai</item>
+        <item>Nagpur</item>
+        <item>Delhi</item>
+        <item>Bangalore</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="parcel_details">Parcel Details</string>
+    <string name="fragile">Fragile</string>
+    <string name="next">Next</string>
+    <string name="send_shipment">Send Shipment</string>
+    <string name="pickup_address">Pickup Address</string>
+    <string name="apartment_house_no">Apartment/House No.</string>
+    <string name="receiver_address">Receiver Address</string>
+    <string name="weight">Weight:</string>
+    <string name="send_shipments">Send Shipments</string>
+    <string name="sender_s_name">Sender\'s name</string>
+    <string name="receiver_s_name">Receiver\'s name</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="area">Area</string>
+    <string name="street">Street</string>
+    <string name="sender_name">Sender Name</string>
+    <string name="sender_address">Sender Address</string>
+    <string name="sender_city_zipcode">Sender City - zipcode</string>
+    <string name="receiver_name">Receiver Name</string>
+    <string name="receiver_city_zipcode">Receiver City - zipcode</string>
+    <string name="continue_to_payment">Continue to payment</string>
+    <string name="standard_delivery_message">Your parcel will be picked up and shipped in the next 4-5 working days.</string>
+    <string name="express_delivery_message">Your parcel will be picked up and shipped in the next 1-2 working days.</string>
+    <string name="shipping_method">Shipping Method:</string>
+</resources>
